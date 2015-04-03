@@ -1,0 +1,4 @@
+C:\Jasim Khan\test_project\MSMQ\DataModel\bin\Debug\DataModel.dll
+C:\Jasim Khan\test_project\MSMQ\DataModel\bin\Debug\DataModel.pdb
+C:\Jasim Khan\test_project\MSMQ\DataModel\obj\Debug\DataModel.dll
+C:\Jasim Khan\test_project\MSMQ\DataModel\obj\Debug\DataModel.pdb
