@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientHost", "ClientHost\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi", "ServiceApi\ServiceApi.csproj", "{5D3FC079-80AB-448E-9DDF-919CD0A700E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MyService.csproj", "{C372F0ED-55C2-4AFA-8C74-DD9FE8F7D24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary1", "WcfServiceLibrary1\WcfServiceLibrary1.csproj", "{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{5D3FC079-80AB-448E-9DDF-919CD0A700E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D3FC079-80AB-448E-9DDF-919CD0A700E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D3FC079-80AB-448E-9DDF-919CD0A700E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C372F0ED-55C2-4AFA-8C74-DD9FE8F7D24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C372F0ED-55C2-4AFA-8C74-DD9FE8F7D24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C372F0ED-55C2-4AFA-8C74-DD9FE8F7D24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C372F0ED-55C2-4AFA-8C74-DD9FE8F7D24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
