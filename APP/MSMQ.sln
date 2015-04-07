@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MySe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary1", "WcfServiceLibrary1\WcfServiceLibrary1.csproj", "{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAce", "WebAce\WebAce.csproj", "{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5A64A7-EB05-40CE-A15E-3E6C21EBDF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
