@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<pre id="editor">function foo(items) {
+    var i;
+    for (i = 0; i < items.length; i++) {
+        alert("Ace Rocks " + items[i]);
+    }
+}</pre>
+<script>
+    $(function () {
+
+        var editor = ace.edit("editor");
+        //editor.setTheme("ace/theme/twilight");
+        //editor.getSession().setMode("ace/mode/javascript");
+        editor.commands.addCommand({
+            name: 'save',
+            bindKey: { win: 'Ctrl-S', mac: 'Command-S' },
+            exec: function (env, args, request) {
+                console.log(env, args, request);
+            }
+        });
+        editor.$blockScrolling = Infinity;
+        editor.setOptions({           
+            theme:'ace/theme/twilight',
+            mode: "ace/mode/javascript"//,
+            //autoScrollEditorIntoView: true
+        });
+        ace.config.loadModule("ace/ext/emmet", function () {
+            ace.require("ace/lib/net").loadScript("http://cloud9ide.github.io/emmet-core/emmet.js", function () {
+                //embedded_editor.setOption("enableEmmet", true);
+                editor.setOption("enableEmmet", true);
+            });
+        });
+
+        ace.config.loadModule("ace/ext/language_tools", function () {
+            /*embedded_editor.setOptions({
+                enableSnippets: true,
+                enableBasicAutocompletion: true
+            });*/
+            editor.setOptions({
+                enableSnippets: true,
+                enableBasicAutocompletion: true
+            });
+        });
+    });
+
+</script>
+<style type="text/css" media="screen">
+    body {
+        overflow: hidden;
+    }
+
+    #editor {
+        margin: 0;
+        position: absolute;
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+</style>

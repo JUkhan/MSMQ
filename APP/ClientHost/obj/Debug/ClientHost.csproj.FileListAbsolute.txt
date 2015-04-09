@@ -9,8 +9,6 @@ C:\Jasim Khan\test_project\MSMQ\ClientHost\bin\Debug\ServiceApi.pdb
 C:\Jasim Khan\test_project\MSMQ\ClientHost\obj\Debug\ClientHost.exe
 C:\Jasim Khan\test_project\MSMQ\ClientHost\obj\Debug\ClientHost.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\ClientHost.exe.config
-C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\obj\Debug\ClientHost.exe
-C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\obj\Debug\ClientHost.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\ClientHost.exe
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\ClientHost.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\DataModel.dll
@@ -18,3 +16,5 @@ C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\ServiceApi.dll
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\DataModel.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\bin\Debug\ServiceApi.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\obj\Debug\ClientHost.csprojResolveAssemblyReference.cache
+C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\obj\Debug\ClientHost.exe
+C:\Jasim Khan\test_project\MSMQ\APP\ClientHost\obj\Debug\ClientHost.pdb

@@ -1,6 +1,6 @@
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\bin\MyService.dll.config
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\bin\MyService.dll
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\bin\MyService.pdb
+C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.dll
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.pdb
-C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache

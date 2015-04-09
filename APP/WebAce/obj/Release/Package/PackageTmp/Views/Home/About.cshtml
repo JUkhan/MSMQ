@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<input type="button" value="Runn Process" onclick="runProcess()" />
+
+<script>
+    function runProcess() {
+        $.get('/Home/RunProcess').then(function (res) {
+            console.log(res);
+        });
+    }
+</script>

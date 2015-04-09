@@ -8,6 +8,20 @@ namespace WebAce.Controllers
 {
     public class HomeController : Controller
     {
+        public JsonResult RunProcess()
+        {
+            try
+            {
+                ServiceRef.Service1Client client = new ServiceRef.Service1Client();
+                client.GetData(100);
+                //System.Threading.Thread.Sleep(1000 * 60);
+                return Json(new { msg = "Running" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { msg = ex.ToString() }, JsonRequestBehavior.AllowGet);
+            }
+        }
         public ActionResult Index()
         {
             return View();

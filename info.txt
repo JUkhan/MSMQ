@@ -1,0 +1,12 @@
+Goto Message Gueuing
+---------------------------
+1. right button click on 
+	MyComputer -> Manage ->Services and Applications -> Message Queuing
+	->Private Queues.
+2. Create new queue and select the queue
+	->click right button->Properties->click security tab
+	->click on Add button 
+	->write 'network service' ->Check Names button. -> click OK button
+	
+3. Network Service added in your selected queue then provide full control to the Network Service
+	

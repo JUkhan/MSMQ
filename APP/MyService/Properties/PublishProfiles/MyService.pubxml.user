@@ -10,13 +10,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/MyService.dll">
-      <publishTime>04/07/2015 11:57:35</publishTime>
+      <publishTime>04/08/2015 16:22:46</publishTime>
     </File>
     <File Include="MyService.svc">
       <publishTime>04/06/2015 11:07:03</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/07/2015 11:57:36</publishTime>
+      <publishTime>04/08/2015 16:22:46</publishTime>
     </File>
   </ItemGroup>
 </Project>

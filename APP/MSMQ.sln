@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary1", "WcfSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAce", "WebAce\WebAce.csproj", "{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClientService", "MyClientService\MyClientService.csproj", "{5D889D9A-C244-44BC-AF5C-A3B30CB56AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{991B79D3-97D1-4451-A92D-7112E2603C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E65513-BE70-41DE-BA5A-07AC4F3B88F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D889D9A-C244-44BC-AF5C-A3B30CB56AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D889D9A-C244-44BC-AF5C-A3B30CB56AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D889D9A-C244-44BC-AF5C-A3B30CB56AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D889D9A-C244-44BC-AF5C-A3B30CB56AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991B79D3-97D1-4451-A92D-7112E2603C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991B79D3-97D1-4451-A92D-7112E2603C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991B79D3-97D1-4451-A92D-7112E2603C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991B79D3-97D1-4451-A92D-7112E2603C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
