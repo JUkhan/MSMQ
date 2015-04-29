@@ -14,7 +14,10 @@ namespace WebAce.Controllers
             {
                 ServiceRef.Service1Client client = new ServiceRef.Service1Client();
                 client.GetData(100);
-                //System.Threading.Thread.Sleep(1000 * 60);
+                client.Close();
+                Agent2.Service1Client agent2 = new Agent2.Service1Client();
+                agent2.GetData(2000);
+                agent2.Close();
                 return Json(new { msg = "Running" }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception ex)

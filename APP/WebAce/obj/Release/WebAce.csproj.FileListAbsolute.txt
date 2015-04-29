@@ -53,3 +53,7 @@ C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.Owin.Security.Microsoft
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Release\WebAce.dll
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Release\WebAce.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Release\WebAce.csprojResolveAssemblyReference.cache
+C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

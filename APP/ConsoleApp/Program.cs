@@ -16,11 +16,17 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Message("Hellow world!");
+            for (int i = 0; i < 99000000; i++)
+            {
+                if (i % 10000000 == 0)
+                    Console.WriteLine(i);
 
-            ServiceRef.Service1Client client = new ServiceRef.Service1Client();
+            }
+            Console.WriteLine("end");
+            /*ServiceRef.Service1Client client = new ServiceRef.Service1Client();
             client.GetData(100);
             Console.WriteLine("end...");
-            client.Close();                 
+            client.Close();  */               
             Console.ReadKey();
         }
     }

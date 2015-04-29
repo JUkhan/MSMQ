@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MyService
 {
@@ -19,24 +20,26 @@ namespace MyService
         }
         public void GetData(int value)
         {
-            WriteLog(value.ToString());
-            ServiceRef.Service2Client client = new ServiceRef.Service2Client();
-            System.Threading.Thread.Sleep(2000);
-            client.Status("10%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("20%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("30%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("40%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("60%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("80%");
-            System.Threading.Thread.Sleep(2000);
-            client.Status("90%");
+            //new Task(() => { processing(); }).Start();           
+            processing();
+        }
+        private void processing()
+        {
+            ServiceRef.Service2Client client = new ServiceRef.Service2Client();            
+           
+            for (int i = 0; i < 99000000; i++)
+            {
+                if (i % 10000000 == 0)
+                {
+                    System.Threading.Thread.Sleep(10);
+                     client.Status(i.ToString());
+                    
+
+                }
+
+            }
             client.Status("100% done");
             client.Close();
-        }       
+        }
     }
 }

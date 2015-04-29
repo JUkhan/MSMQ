@@ -3,14 +3,36 @@
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
+<script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+<script src="~/signalr/hubs"></script>
 
 <p>Use this area to provide additional information.</p>
 
-<input type="button" value="Runn Process" onclick="runProcess()" />
+<input type="button" value="Start" onclick="runProcess()" />
+<ol id="state">
 
+</ol>
 <script>
+    $(function () {
+        // Declare a proxy to reference the hub. 
+        var hub = $.connection.myhub;
+        // Create a function that the hub can call to broadcast messages.
+        hub.client.sendStatus = function (message) {
+            
+            // Add the message to the page. 
+            $('#state').append('<li><b>' + message
+                + '</b></li>');
+        };
+       
+        // Start the connection.
+        $.connection.hub.start().done(function () {
+            hub.server.send('Hello world!');
+            console.log('Hub connected successfully')
+        });
+    });
     function runProcess() {
-        $.get('/Home/RunProcess').then(function (res) {
+        $.get('/ProdTracker/Home/RunProcess').then(function (res) {
+
             console.log(res);
         });
     }

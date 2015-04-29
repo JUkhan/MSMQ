@@ -54,6 +54,5 @@ C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.Owin.Security.Google.xml
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Debug\WebAce.csprojResolveAssemblyReference.cache
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Debug\WebAce.dll
 C:\Jasim Khan\test_project\MSMQ\APP\WebAce\obj\Debug\WebAce.pdb
