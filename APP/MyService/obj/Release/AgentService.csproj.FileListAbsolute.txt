@@ -1,0 +1,8 @@
+E:\FFV\MSMQ\APP\MyService\bin\MyService.dll.config
+E:\FFV\MSMQ\APP\MyService\bin\MyService.dll
+E:\FFV\MSMQ\APP\MyService\bin\MyService.pdb
+E:\FFV\MSMQ\APP\MyService\bin\DataModel.dll
+E:\FFV\MSMQ\APP\MyService\bin\DataModel.pdb
+E:\FFV\MSMQ\APP\MyService\obj\Release\AgentService.csprojResolveAssemblyReference.cache
+E:\FFV\MSMQ\APP\MyService\obj\Release\MyService.dll
+E:\FFV\MSMQ\APP\MyService\obj\Release\MyService.pdb

@@ -8,17 +8,19 @@
 
 <p>Use this area to provide additional information.</p>
 
-<input type="button" value="Start" onclick="runProcess()" />
+<input type="button" value="Start" onclick="runProcess()" /><span id="num"></span>
 <ol id="state">
 
 </ol>
 <script>
     $(function () {
+        var num = $('#num');
         // Declare a proxy to reference the hub. 
         var hub = $.connection.myhub;
         // Create a function that the hub can call to broadcast messages.
         hub.client.sendStatus = function (message) {
-            
+            count++;
+            num.html(count);
             // Add the message to the page. 
             $('#state').append('<li><b>' + message
                 + '</b></li>');
@@ -30,7 +32,10 @@
             console.log('Hub connected successfully')
         });
     });
+    var count = 0;
     function runProcess() {
+        count=0;
+        $('#state').empty();
         $.get('/ProdTracker/Home/RunProcess').then(function (res) {
 
             console.log(res);

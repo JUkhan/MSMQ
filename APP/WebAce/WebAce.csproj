@@ -175,21 +175,15 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Agent\AgentApi.cs" />
+    <Compile Include="Models\Agent\AgentClient.cs" />
+    <Compile Include="Models\Agent\AgentClientManager.cs" />
+    <Compile Include="Models\Agent\StateManager.cs" />
     <Compile Include="Models\HubHelper.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MyHub.cs" />
-    <Compile Include="Models\Service2.cs" />
+    <Compile Include="Models\StatusService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\Agent2\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Service References\ServiceRef\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -529,28 +523,7 @@
     <Content Include="Scripts\ace\worker-xml.js" />
     <Content Include="Scripts\ace\worker-xquery.js" />
     <Content Include="Scripts\_references.js" />
-    <None Include="Service References\Agent2\MyService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\Agent2\MyService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\Agent2\Service1.wsdl" />
-    <None Include="Service References\ServiceRef\MyService.disco" />
-    <None Include="Service References\ServiceRef\configuration91.svcinfo" />
-    <None Include="Service References\ServiceRef\configuration.svcinfo" />
-    <None Include="Service References\ServiceRef\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\Agent2\MyService.disco" />
-    <None Include="Service References\Agent2\configuration91.svcinfo" />
-    <None Include="Service References\Agent2\configuration.svcinfo" />
-    <None Include="Service References\Agent2\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <Content Include="Service2.svc" />
+    <Content Include="StatusService.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -578,13 +551,6 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <None Include="Service References\ServiceRef\MyService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceRef\MyService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceRef\Service1.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -600,8 +566,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\Agent2\" />
-    <WCFMetadataStorage Include="Service References\ServiceRef\" />
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{b6d2769a-0046-4544-8bcd-0dfed65f7583}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

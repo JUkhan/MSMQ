@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebAce.Models.Agent;
 
 namespace WebAce.Controllers
 {
@@ -12,12 +13,11 @@ namespace WebAce.Controllers
         {
             try
             {
-                ServiceRef.Service1Client client = new ServiceRef.Service1Client();
-                client.GetData(100);
-                client.Close();
-                Agent2.Service1Client agent2 = new Agent2.Service1Client();
-                agent2.GetData(2000);
-                agent2.Close();
+                AgentClientManager.RegisterAgent();
+
+                StateManager.SetStates(101);
+                StateManager.Run(101);
+
                 return Json(new { msg = "Running" }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception ex)

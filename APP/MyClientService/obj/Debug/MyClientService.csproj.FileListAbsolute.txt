@@ -4,3 +4,9 @@ C:\Jasim Khan\test_project\MSMQ\APP\MyClientService\bin\MyClientService.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\MyClientService\obj\Debug\MyClientService.csprojResolveAssemblyReference.cache
 C:\Jasim Khan\test_project\MSMQ\APP\MyClientService\obj\Debug\MyClientService.dll
 C:\Jasim Khan\test_project\MSMQ\APP\MyClientService\obj\Debug\MyClientService.pdb
+E:\FFV\MSMQ\APP\MyClientService\bin\MyClientService.dll.config
+E:\FFV\MSMQ\APP\MyClientService\bin\MyClientService.dll
+E:\FFV\MSMQ\APP\MyClientService\bin\MyClientService.pdb
+E:\FFV\MSMQ\APP\MyClientService\obj\Debug\MyClientService.csprojResolveAssemblyReference.cache
+E:\FFV\MSMQ\APP\MyClientService\obj\Debug\MyClientService.dll
+E:\FFV\MSMQ\APP\MyClientService\obj\Debug\MyClientService.pdb

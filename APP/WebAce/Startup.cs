@@ -1,5 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using WebAce.Models.Agent;
 
 [assembly: OwinStartupAttribute(typeof(WebAce.Startup))]
 namespace WebAce
@@ -10,6 +11,7 @@ namespace WebAce
         {
             ConfigureAuth(app);
             app.MapSignalR();
+            
         }
     }
 }

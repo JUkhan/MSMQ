@@ -4,3 +4,11 @@ C:\Jasim Khan\test_project\MSMQ\APP\MyService\bin\MyService.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.dll
 C:\Jasim Khan\test_project\MSMQ\APP\MyService\obj\Debug\MyService.pdb
+E:\FFV\MSMQ\APP\MyService\bin\MyService.dll.config
+E:\FFV\MSMQ\APP\MyService\bin\MyService.dll
+E:\FFV\MSMQ\APP\MyService\bin\MyService.pdb
+E:\FFV\MSMQ\APP\MyService\obj\Debug\MyService.dll
+E:\FFV\MSMQ\APP\MyService\obj\Debug\MyService.pdb
+E:\FFV\MSMQ\APP\MyService\bin\DataModel.dll
+E:\FFV\MSMQ\APP\MyService\bin\DataModel.pdb
+E:\FFV\MSMQ\APP\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache

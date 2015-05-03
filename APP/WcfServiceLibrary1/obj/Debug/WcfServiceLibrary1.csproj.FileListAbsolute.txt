@@ -3,3 +3,9 @@ C:\Jasim Khan\test_project\MSMQ\APP\WcfServiceLibrary1\bin\Debug\WcfServiceLibra
 C:\Jasim Khan\test_project\MSMQ\APP\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
 C:\Jasim Khan\test_project\MSMQ\APP\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+E:\FFV\MSMQ\APP\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

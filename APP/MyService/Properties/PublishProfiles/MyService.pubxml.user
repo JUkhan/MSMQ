@@ -9,14 +9,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>C:\deployment\MyService</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="AgentService.svc">
+      <publishTime>05/02/2015 17:30:57</publishTime>
+    </File>
+    <File Include="bin/DataModel.dll">
+      <publishTime>05/03/2015 09:44:12</publishTime>
+    </File>
     <File Include="bin/MyService.dll">
-      <publishTime>04/15/2015 13:36:25</publishTime>
+      <publishTime>05/03/2015 11:17:03</publishTime>
     </File>
     <File Include="MyService.svc">
-      <publishTime>04/06/2015 11:07:03</publishTime>
+      <publishTime>05/02/2015 06:30:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/08/2015 16:22:46</publishTime>
+      <publishTime>05/02/2015 18:23:39</publishTime>
     </File>
   </ItemGroup>
 </Project>

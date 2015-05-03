@@ -1,0 +1,5 @@
+E:\FFV\MSMQ\APP\DataModel\bin\Release\DataModel.dll
+E:\FFV\MSMQ\APP\DataModel\bin\Release\DataModel.pdb
+E:\FFV\MSMQ\APP\DataModel\obj\Release\DataModel.dll
+E:\FFV\MSMQ\APP\DataModel\obj\Release\DataModel.pdb
+E:\FFV\MSMQ\APP\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache

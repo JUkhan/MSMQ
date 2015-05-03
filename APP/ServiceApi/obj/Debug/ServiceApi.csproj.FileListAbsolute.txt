@@ -12,3 +12,10 @@ C:\Jasim Khan\test_project\MSMQ\APP\ServiceApi\bin\Debug\DataModel.pdb
 C:\Jasim Khan\test_project\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.csprojResolveAssemblyReference.cache
 C:\Jasim Khan\test_project\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.dll
 C:\Jasim Khan\test_project\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.pdb
+E:\FFV\MSMQ\APP\ServiceApi\bin\Debug\ServiceApi.dll
+E:\FFV\MSMQ\APP\ServiceApi\bin\Debug\ServiceApi.pdb
+E:\FFV\MSMQ\APP\ServiceApi\bin\Debug\DataModel.dll
+E:\FFV\MSMQ\APP\ServiceApi\bin\Debug\DataModel.pdb
+E:\FFV\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.csprojResolveAssemblyReference.cache
+E:\FFV\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.dll
+E:\FFV\MSMQ\APP\ServiceApi\obj\Debug\ServiceApi.pdb

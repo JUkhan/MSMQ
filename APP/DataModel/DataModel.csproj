@@ -41,12 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataContract.cs" />
-    <Compile Include="IClient.cs" />
-    <Compile Include="IServer.cs" />
-    <Compile Include="MessageHeader.cs" />
+    <Compile Include="Agent\IAgent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServerApi.cs" />
+    <Compile Include="Status\IStatus.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
